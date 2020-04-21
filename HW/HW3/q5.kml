@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+<Folder>
+<name>Library</name>
+
+<Placemark>
+<name>Leavey Library</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.283013,34.021685</coordinates>
+</Point>
+</Placemark>
+
+<Placemark><name>Doheny Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283970,34.020256</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Science and Engineering Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288739,34.019702</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Gaughan and Tiberti Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282608,34.018600</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Wilson Dental Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286136,34.023946</coordinates></Point>
+</Placemark>
+
+</Folder>
+
+
+<Folder>
+<name>Restuarants and Cafes</name>
+
+<Placemark><name>Literatea Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283312,34.020106</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Starbucks</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288035,34.024619</coordinates></Point>
+</Placemark>
+
+<Placemark><name>The Habit Burger Grill</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286431,34.020152</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Little Galen</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287103,34.022881</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Tutor Hall Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289988,34.020042</coordinates></Point>
+</Placemark>
+
+</Folder>
+
+<Folder>
+<name>Landmarks </name>
+
+<Placemark><name>Tommy Trojan</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285431,34.020562</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Trojan Sword</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288411,34.022825</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Traveler the Horse</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285180,34.020052</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Generations Fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283241,34.022212</coordinates></Point>
+</Placemark>
+
+<Placemark><name>The Inverted Fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285641,34.022244</coordinates></Point>
+</Placemark>
+
+</Folder>
+
+
+<Style id="transBluePoly">
+	<LineStyle>
+        <width>7.5</width>
+    </LineStyle>
+    <PolyStyle>
+    	<color>ffffff</color>
+    </PolyStyle>
+</Style>
+
+<Placemark>
+    <styleUrl>#transBluePoly</styleUrl>
+    <Polygon>
+    	<extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+        	<LinearRing>
+            	<coordinates> 
+            		-118.282608,34.0186,20
+                    -118.288739,34.019702,20
+                    -118.289988,34.020042,20
+                    -118.288035,34.024619,20
+                    -118.286136,34.023946,20
+                    -118.283241,34.022212,20
+                    -118.283013,34.021685,20
+                    -118.282608,34.0186,20
+            	</coordinates>
+          	</LinearRing>
+        </outerBoundaryIs>
+    </Polygon>
+</Placemark>
+
+
+<Placemark>
+	<LineString>
+    	<width>6.5</width> 
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> 
+        	-118.285180,34.020052,20
+        	-118.285431,34.020562,20 
+        </coordinates>
+    </LineString>
+</Placemark>
+<Placemark>
+    <LineString>
+        <width>3.5</width>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> 
+        	-118.285180,34.020052,20
+        	-118.283970,34.020256,20
+        </coordinates>
+    </LineString>
+</Placemark>
+<Placemark>
+	<LineString>
+		<width>3.5</width> 
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> 
+        	-118.285180,34.020052,20
+        	-118.286431,34.020152,20
+        </coordinates>
+    </LineString>
+</Placemark>
+<Placemark>
+	<LineString>
+ 		<width>3.5</width> 
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> 
+        	-118.285180,34.020052,20
+        	-118.283312,34.020106,20
+        </coordinates>
+    </LineString>
+</Placemark>
+
+</Document>
+</kml>
